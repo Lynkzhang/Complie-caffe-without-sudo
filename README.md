@@ -359,3 +359,10 @@ CMakeList.txt
 [  PASSED  ] 2139 tests.
 
 [100%] Built target runtest
+
+
+
+
+Ps. import caffe 时候报错：
+
+修复中
