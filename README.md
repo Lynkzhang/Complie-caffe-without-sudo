@@ -362,7 +362,15 @@ CMakeList.txt
 
 
 
+添加pythonpath:
+```
+export PYTHONPATH='/home/Lynkzhang/Caffe/python/':$PYTHONPATH
+```
 
-Ps. import caffe 时候报错：
-
-修复中
+Ps. import caffe 时候报错，protobuf 有问题
+原因是在编译protobuf的时候少做一步，
+```
+cd /home/Lynkzhang/protobuf/python
+python setup.py install
+```
+解决
