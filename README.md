@@ -2,7 +2,7 @@
 # Complie-caffe-without-sudo
 Complie-caffe-without-sudo
 
-CMakeLists and cmake/ also provided
+CMakeLists and cmake/ also provided(just for exazmple)
 
 caffe依赖手动编译笔记
 
