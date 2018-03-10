@@ -1,5 +1,8 @@
+
 # Complie-caffe-without-sudo
 Complie-caffe-without-sudo
+
+CMakeLists and cmake/ also provided
 
 caffe依赖手动编译笔记
 
