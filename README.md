@@ -377,3 +377,9 @@ cd /home/Lynkzhang/protobuf/python
 python setup.py install
 ```
 解决
+
+Ps.2. 某次编译没有出现python的interface， 
+```
+make pycaffe
+```
+解决
