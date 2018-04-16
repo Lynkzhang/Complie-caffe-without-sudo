@@ -383,3 +383,17 @@ Ps.2. 某次编译没有出现python的interface，
 make pycaffe
 ```
 解决
+
+Ps.3. 某次make runtest 没有过：
+```
+[----------] Global test environment tear-down
+[==========] 2009 tests from 269 test cases ran. (716073 ms total)
+[  PASSED  ] 2007 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] NesterovSolverTest/2.TestNesterovLeastSquaresUpdateWithEverythingShare, where TypeParam = caffe::GPUDevice<float>
+[  FAILED  ] NesterovSolverTest/2.TestNesterovLeastSquaresUpdateWithEverything, where TypeParam = caffe::GPUDevice<float>
+```
+```
+export CUDA_VISIBLE_DEVICES=0
+```
+解决
